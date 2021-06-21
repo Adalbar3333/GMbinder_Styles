@@ -55,7 +55,7 @@
   
   
   .phb p, .phb table, .phb ul, .phb blockquote, .phb blockquote strong  {
-    font-family:'Norcian';
+    font-family:'Norican';
     color: #412121;
     font-size:16px;
     line-height:1em;
@@ -103,7 +103,7 @@
   /*  HEADERS  */
   
   .phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb .pageNumber {
-    font-family:'Norcian';
+    font-family:'Norican';
     font-weight:unset;
   }
   
@@ -113,7 +113,7 @@
   }
   
   .phb h1 + p:first-letter {
-    font-family:'Norcian';
+    font-family:'Norican';
     font-size:1.5em;
     color: inherit;
     padding-top:.3em;
