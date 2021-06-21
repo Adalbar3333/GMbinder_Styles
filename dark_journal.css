@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Rock+Salt&family=Fredericka+the+Great&family=Cabin+Sketch:wght@400;700&family=Reenie+Beanie&display=swap');
   
 
@@ -55,7 +55,7 @@
   
   
   .phb p, .phb table, .phb ul, .phb blockquote, .phb blockquote strong  {
-    font-family:'Norican';
+    font-family:'Norican', cursive;
     color: #412121;
     font-size:16px;
     line-height:1em;
@@ -103,7 +103,7 @@
   /*  HEADERS  */
   
   .phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb .pageNumber {
-    font-family:'Norican';
+    font-family:'Norican', cursive;
     font-weight:unset;
   }
   
@@ -113,7 +113,7 @@
   }
   
   .phb h1 + p:first-letter {
-    font-family:'Norican';
+    font-family:'Norican', cursive;
     font-size:1.5em;
     color: inherit;
     padding-top:.3em;
