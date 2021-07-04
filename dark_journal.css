@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Rock+Salt&family=Fredericka+the+Great&family=Cabin+Sketch:wght@400;700&family=Reenie+Beanie&display=swap');
-  
-
-
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
   
   .phb {
     width:11in;
@@ -31,31 +27,18 @@
   
     /* PAGE NUMBERS */
   
-  .phb .pageNumber {
-    counter-increment:phb-page-numbers;
+  .phb pgL {
+      position:absolute; bottom:50px; left:270px; font-size:20px;
   }
-
-  .phb .pageNumber.auto {
-    left:280px;
-    bottom:50px;
-    color:black;
-  }
-  
-  .phb > .pageNumber.auto:nth-of-type(2) {
-    right:270px;
-    left:unset
-  }
-  
-  
-  .brewRenderer .pages > .phb {
-    box-shadow:none;
+  .phb pgR {
+      position:absolute; bottom:50px; right:270px; font-size:20px;
   }
   
   /* TEXT TEXT TEXT */
   
   
   .phb p, .phb table, .phb ul, .phb blockquote, .phb blockquote strong  {
-    font-family:'Norican', cursive;
+    font-family:'jim nightshade', cursive;
     color: #412121;
     font-size:16px;
     line-height:1em;
@@ -75,6 +58,7 @@
   }
   
   .phb em {
+    font-family:'jim nightshade', cursive;
     text-decoration:underline;
     font-style:unset;
   }
@@ -86,6 +70,13 @@
   
   .phb del {
     text-decoration-style:double;
+  }
+  invis {
+      color:#0000
+  }
+  n {
+      "
+      "
   }
   
   /*   LINKS   */
@@ -103,7 +94,7 @@
   /*  HEADERS  */
   
   .phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb .pageNumber {
-    font-family:'Norican', cursive;
+    font-family:'jim nightshade', cursive;
     font-weight:unset;
   }
   
@@ -113,7 +104,7 @@
   }
   
   .phb h1 + p:first-letter {
-    font-family:'Norican', cursive;
+    font-family:'jim nightshade', cursive;
     font-size:1.5em;
     color: inherit;
     padding-top:.3em;
@@ -137,8 +128,6 @@
   .phb h5 {
       font-size:25px
   }
-  
-  
   /*  TABLES  */
   
   .phb table tbody tr:nth-child(2n+1) {
@@ -190,6 +179,9 @@
   
   .phb blockquote p {
     font-size:inherit;
+  }
+  .phb blockquote em {
+      font-family:'jim nightshade', cursive;
   }
   
   .phb .descriptive {
@@ -285,3 +277,12 @@
     font-weight: normal;
     color: #412121;
     margin-left: 1px;
+</style>
+
+<style>
+sorcCantrip {
+    position:absolute; top:158px; right:130px
+}
+h10 {
+      position:absolute; left:100px; top:158px
+  }
