@@ -197,14 +197,14 @@
   }
   
   .phb .descriptive p {
-    font-family:'jim nightshade';
+    font-family:'jim nightshade', cursive;
     color: #412121;
     font-size:18px;
     line-height:1.1em;
   }
   
   .phb .descriptive h5 {
-    font-family:inherit;
+    font-family:'jim nightshade', cursive;
     color:#412121;
     font-size:20px
   }
