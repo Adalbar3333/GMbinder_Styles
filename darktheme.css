@@ -411,7 +411,7 @@
     background-image: url('https://www.gmbinder.com/images/CEV6v31.png'); z-index: -2;
     transform: scalex(-1);
 /*ToC Styling*/
-  .toc a {color: inherit !important;}
+  .toc a {color: #ADD8E6;}
   .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
   .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:white;content:" ........................................""........................................."".........................................";}
   .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:white;margin-left:1px;}
