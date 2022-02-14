@@ -1,0 +1,424 @@
+/* Background */
+  .phb{ background-image: url('https://www.photos-public-domain.com/wp-content/uploads/2011/03/black-parchment-paper-texture.jpg') }
+  .phb{ background-size: cover }
+
+/* CSS link color */
+  a { color: #b5d5f7; } 
+
+/* Colors */
+.phb h5{
+    color            : #e0e0e0;
+    font-size        : 124%;
+}
+
+.phb blockquote h5{
+    color            : #e0e0e0;
+    font-size        : 104%;
+}
+
+.phb .descriptive h5{
+    color            : #e0e0e0;
+    font-size        : 135%;
+}
+
+.phb h4{
+    color            : #597089;
+    font-size        : 145%;
+}
+
+.phb h3{
+    color            : #597089;
+    border-bottom    : 2px solid #7d8185;
+    font-size        : 164%;
+}
+
+.phb hr+section blockquote h3{
+    font-size        : 120%;
+}
+
+.phb h2{
+    color            : #597089;
+    font-size        : 223%;
+}
+
+.phb hr+section blockquote h2{
+    color            : #597089;
+    font-size        : 150%;
+}
+
+.phb h1+p::first-letter {
+    font-size:      8em;
+    color:          #e0e0e0;
+}
+
+.phb {
+    color            : #e0e0e0;
+}
+/* Note */
+.phb h5{ black;
+    margin-bottom: .2em;               
+    font-family: ScalySansSmallCaps;
+    font-size: .423cm;
+    font-weight: 900
+}
+.phb blockquote {
+    font-family: ScalySans;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    margin-top: 9px;
+    padding: 15px 15px;
+    background-color: #265282;
+    border-style: solid;
+    border-width: 4px;
+    border-image: url('https://www.gmbinder.com/images/SM1xpym.png') 11;
+    border-image-outset: 4px 0;
+    box-shadow:0 0 6px #000000;
+}
+.phb blockquote em {
+    font-family: ScalySans;
+    font-style: italic
+}
+.phb blockquote strong {
+    font-family: ScalySans;
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+.phb blockquote p,
+.phb blockquote ul {
+    font-size: .352cm;
+    line-height: 1.1em
+}
+.phb pre+blockquote,
+.phb h2+blockquote,
+.phb h3+blockquote,
+.phb h4+blockquote,
+.phb h5+blockquote {
+    margin-top: 12px}
+.phb blockquote h5 {
+    margin-top: 0}
+
+
+.phb .descriptive{
+    display:block-inline;
+    margin-bottom:1em;
+    background-color:#4e7cad;
+    font-family:ScalySans;
+    padding: 0px 15px;
+    border-style:transparent;
+    border-width:4px;
+    border-image:url('https://www.gmbinder.com/images/SM1xpym.png') 12 round;
+    border-image-outset:4px;
+    box-shadow:0 0 6px #000000;
+}
+.phb .descriptive p{
+    display:block;
+    padding-bottom:0;
+    line-height:1.5em
+}
+.phb .descriptive p+p{
+    padding-top:.8em
+}
+.phb .descriptive em{
+    font-family:ScalySans;
+    font-style:italic
+}
+.phb .descriptive strong{
+    font-family:ScalySans;
+    font-weight:800;
+    letter-spacing:-0.02em
+}
+.phb pre+.descriptive{
+    margin-top:8px
+  }
+/* Classtable */
+   .phb .classTable{
+    margin-top:30px;
+    margin-bottom:30px;
+    border-collapse:separate;
+    background-color:transparent;
+    border:initial;
+    border-style: transparent;
+    border-image-outset:5px 10px;
+    border-image-repeat:round;
+    border-image-slice:140 140 140 140;
+    border-image-source:url('/assets/img/table-wrap.png');
+    border-image-width:30px
+}
+.phb .classTable h5{
+    margin-bottom:10px
+}
+/* Covers */
+.phb .cover-header{
+    position:absolute;
+    font-family:NodestoCaps,nodesto,sans-serif;
+    transform:scale(2, 2) !important;
+    font-weight:normal;
+    font-size:36px;
+    color:#b5d5f7;
+    width:700px;
+    text-shadow:1px 1px 2px #000000,-1px 1px 2px #000000,1px -1px 2px #000000,-1px -1px 2px #000000;
+    transform:scaleY(3) scaleX(1);
+    top:50px;
+    text-align:center
+}
+.phb .cover-image{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:1900px
+}
+.phb .cover-diamond{
+    background-image:url('https://www.gmbinder.com/images/Q06mxIb.png');
+    background-size:400px;
+    background-repeat:no-repeat;
+    position:absolute;
+    left:210px;
+    top:115px;
+    width:400px;
+    height:12px
+}
+.phb .cover-splotch{
+    background-image:url('https://www.gmbinder.com/images/4wvz8tc.png');
+    background-size:350px;
+    position:absolute;
+    left:0;
+    bottom:180px;
+    width:345px;
+    height:56px
+}
+.phb .cover-footer{
+    position:absolute;
+    font-family:ScalySans;
+    font-size:20px;
+    color: #b5d5f7;
+    bottom:50px;
+    right:55px;
+    width:700px;
+    text-shadow:1px 1px 2px #000000,-1px 1px 2px #000000,1px -1px 2px #000000,-1px -1px 2px #000000;
+    filter:opacity(100%);
+    text-align:center
+}
+    .phb .back-cover-image{
+    position:absolute;
+    height:1066px;
+    left:0;
+    top:0;
+    width:475px;
+    background-image:url('https://www.gmbinder.com/images/p7e1tuy.png');
+    background-size:475px 1066px;
+    z-index:-1
+}
+.phb .back-cover-diamond{
+    background-image:url('https://www.gmbinder.com/images/Q06mxIb.png');
+    background-size:280px;
+    background-repeat:no-repeat;
+    position:absolute;
+    left:90px;
+    top:110px;
+    width:280px;
+    height:8px
+}
+.phb .back-cover-logo{
+    background-image:url('https://www.gmbinder.com/assets/img/logo-stacked-light.png');
+    background-size:120px;
+    position:absolute;
+    left:165px;
+    bottom:95px;
+    width:120px;
+    height:74px
+}
+.phb .back-cover-logo-link{
+    text-align:center;
+    font-family:sans-serif;
+    position:absolute;
+    bottom:30px;
+    left:145px
+}
+.phb .back-cover-logo-link p{
+    font-family:ScalySans,sans-serif;
+    line-height:1.6em !important;
+    font-size:16px;
+    padding-bottom:25px
+}
+.phb .back-cover-logo-link a{
+    color: #e0e0e0;
+    text-decoration:none
+}
+ .phb .back-cover-header{
+    font-family:NodestoCaps,Sans-serif;
+    font-size:64px;
+    text-align:center;
+    text-shadow:1px 1px 2px #000000,-1px 1px 2px #000000,1px -1px 2px #000000,-1px -1px 2px #000000
+}
+.phb .back-cover-header p{
+    color: #597089;
+    text-indent:0;
+    padding-bottom:15px
+}
+.phb .back-cover-header p+p{
+    text-indent:0
+}
+.phb .back-cover-text{
+    color:#e0e0e0;
+    font-family:sans-serif
+}
+.phb .back-cover-text a{
+    color: #597089;
+}
+.phb .back-cover-text p{
+    font-family:ScalySans,sans-serif;
+    line-height:1.6em !important;
+    font-size:16px;
+    padding-bottom:25px
+}
+.phb .back-cover-text p+p{
+    text-indent:0
+}
+.phb .back-cover-close{
+    color:#e0e0e0;
+    text-align:center;
+    font-family:sans-serif
+}
+.phb .back-cover-close a{
+    color: #597089;
+}
+.phb .back-cover-close p{
+    font-family:ScalySans,sans-serif;
+    line-height:1.6em !important;
+    font-size:16px;
+    padding-bottom:25px
+}
+.phb .back-cover-close p+p{
+    text-indent:0
+}
+.phb .back-cover-right{
+    padding-left:60px
+}
+/* Tables */
+  .phb hr+section blockquote tr:nth-child(odd) td {background-color:transparent; }
+  table tr:nth-child(odd) td {background-color: #4b76a6}
+  .phb h1, .phb h2, .phb h3, .phb h4{
+  margin-top:.0em;               
+  margin-bottom:0em;
+  font-family:Mr.Jeeves;
+  font-weight:500;
+  color:#597089;}
+  .mytablestyle td:nth-child(1) {
+    vertical-align: top;
+}
+    .phb table {                            
+    font-family: ScalySans;
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 9.6pt;
+    line-height: 1.1em
+}
+/* Statblocks */
+.phb hr+section blockquote hr{background-image: url(https://www.gmbinder.com/images/ykTiDmB.png)}
+.phb hr+section blockquote {
+    position: relative;
+    padding-top: 15px;
+    background-color: transparent;
+    border-style: none;
+    background-image: none;
+    border-image: none
+    background-position: center;
+    box-shadow: none;
+    border-width: 8px;
+    border-image-slice: 20
+}
+.phb hr+section blockquote h2 {
+    margin-top: -8px;
+    margin-bottom: 0
+}
+.phb hr+section blockquote h2+p {
+    padding-bottom: 0
+}
+.phb hr+section blockquote h3 {
+    font-family: ScalySans;
+    font-weight: 400;
+    border-bottom: 1px solid
+}
+.phb hr+section blockquote hr+ul {
+    color: #7d8185
+}
+.phb hr+section blockquote ul {
+    font-family: ScalySans;
+    padding-left: 1em;
+    font-size: .352cm
+}
+.phb hr+section blockquote ul em {
+    font-family: ScalySans;
+    font-style: italic
+}
+.phb hr+section blockquote ul strong {
+    font-family: ScalySans;
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+ .phb hr+section blockquote hr+table {
+    margin: 0;
+    column-span: 1;
+    background-color: transparent;
+    border-style: none;
+    border-image: none;
+    -webkit-column-span: 1
+}
+.phb hr+section blockquote hr+table tbody tr:nth-child(odd),
+.phb hr+section blockquote hr+table tbody tr:nth-child(even) {
+    background-color: transparent
+}
+.phb hr+section blockquote table {
+    color: #597089
+}
+.phb hr+section blockquote p+p {
+    margin-top: 0;
+    text-indent: 0;
+    margin-bottom: 7px
+}
+.phb hr+section blockquote hr {
+    visibility: transparent;
+    height: 6px;
+    margin: 4px 0;
+    background-image: none
+    background-size: 100% 100%;
+    border: none
+  }
+/* Footer */
+  .phb .pageNumber{
+    color: #597089;
+    bottom           : 30px;
+  }
+  .phb .footnote{
+    color: #597089;
+    bottom           : 40px;
+  }
+  .phb:after{ 
+    content          : '';
+    position         : absolute;
+    bottom           : 0px;
+    left             : 0px;
+    z-index          : -10;
+    height           : 78px;
+    width            : 100%;
+    background-image: url('https://www.gmbinder.com/images/CEV6v31.png');
+    background-size  : cover;
+  }
+  .phb:nth-child(odd):after {
+    background-image: url('https://www.gmbinder.com/images/CEV6v31.png'); z-index: -2;
+  }
+  .phb:nth-child(even):after {
+    background-image: url('https://www.gmbinder.com/images/CEV6v31.png'); z-index: -2;
+    transform: scalex(-1);
+/*ToC Styling*/
+  .toc a {color: #ADD8E6;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:white;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:white;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
