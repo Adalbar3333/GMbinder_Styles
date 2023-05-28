@@ -40,7 +40,7 @@
   .phb p, .phb table, .phb ul, .phb blockquote, .phb blockquote strong  {
     font-family:'grenze gotisch';
     color: #412121;
-    font-size:16px;
+    font-size:24px;
     line-height:1em;
     padding:0;
   }
@@ -100,33 +100,33 @@
   
  .phb h1 {
     column-span:unset;
-    font-size:4em
+    font-size:6em
   }
   
   .phb h1 + p:first-letter {
     font-family:'grenze gotisch';
-    font-size:1.5em;
+    font-size:2.5em;
     color: inherit;
-    padding-top:.3em;
+    padding-top:.2em;
     margin-right:2px;
   }
   
   .phb h2 {
-    font-size:3em;
+    font-size:4em;
   
   }
   
   .phb h3 {
     border:none;
     margin-left:-20px;
-    text-size:2em
+    text-size:3em
   }
   
   .phb h4 {
-    font-size:20px
+    font-size:3em
   }
   .phb h5 {
-      font-size:25px
+      font-size:4em
   }
   /*  TABLES  */
   
