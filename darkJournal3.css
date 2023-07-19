@@ -37,7 +37,7 @@
   /* TEXT TEXT TEXT */
   
   
-  .phb p, .phb table, .phb ul, .phb blockquote, .phb blockquote strong  {
+  .phb p, .phb table, .phb ul, .phb blockquote, .phb blockquote strong, .phb li  {
     font-family:'grenze gotisch';
     color: #412121;
     font-size:24px;
