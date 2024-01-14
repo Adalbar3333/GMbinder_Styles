@@ -1,5 +1,7 @@
+<style>
+
 /* Background */
-  .phb{ background-image: url('https://www.photos-public-domain.com/wp-content/uploads/2011/03/black-parchment-paper-texture.jpg') }
+  .phb{ background-image: url('https://www.gmbinder.com/images/uagrEYC.png') }
   .phb{ background-size: cover }
 
 /* CSS link color */
@@ -7,27 +9,27 @@
 
 /* Colors */
 .phb h5{
-    color            : #e0e0e0;
+    color            : #B6AD90;
     font-size        : 124%;
 }
 
 .phb blockquote h5{
-    color            : #e0e0e0;
+    color            : #B6AD90;
     font-size        : 104%;
 }
 
 .phb .descriptive h5{
-    color            : #e0e0e0;
+    color            : #B6AD90;
     font-size        : 135%;
 }
 
 .phb h4{
-    color            : #597089;
+    color            : #A68A64;
     font-size        : 145%;
 }
 
 .phb h3{
-    color            : #597089;
+    color            : #A68A64;
     border-bottom    : 2px solid #7d8185;
     font-size        : 164%;
 }
@@ -37,22 +39,22 @@
 }
 
 .phb h2{
-    color            : #597089;
+    color            : #A68A64;
     font-size        : 223%;
 }
 
 .phb hr+section blockquote h2{
-    color            : #597089;
+    color            : #A68A64;
     font-size        : 150%;
 }
 
 .phb h1+p::first-letter {
     font-size:      8em;
-    color:          #e0e0e0;
+    color:          #B6AD90;
 }
 
 .phb {
-    color            : #e0e0e0;
+    color            : #B6AD90;
 }
 /* Note */
 .phb h5{ black;
@@ -67,7 +69,7 @@
     margin-bottom: 1em;
     margin-top: 9px;
     padding: 15px 15px;
-    background-color: #265282;
+    background-color: #656D4A;
     border-style: solid;
     border-width: 4px;
     border-image: url('https://www.gmbinder.com/images/SM1xpym.png') 11;
@@ -101,7 +103,7 @@
 .phb .descriptive{
     display:block-inline;
     margin-bottom:1em;
-    background-color:#4e7cad;
+    background-color:#656D4A;
     font-family:ScalySans;
     padding: 0px 15px;
     border-style:transparent;
@@ -241,7 +243,7 @@
     padding-bottom:25px
 }
 .phb .back-cover-logo-link a{
-    color: #e0e0e0;
+    color: #B6AD90;
     text-decoration:none
 }
  .phb .back-cover-header{
@@ -251,7 +253,7 @@
     text-shadow:1px 1px 2px #000000,-1px 1px 2px #000000,1px -1px 2px #000000,-1px -1px 2px #000000
 }
 .phb .back-cover-header p{
-    color: #597089;
+    color: #A68A64;
     text-indent:0;
     padding-bottom:15px
 }
@@ -259,11 +261,11 @@
     text-indent:0
 }
 .phb .back-cover-text{
-    color:#e0e0e0;
+    color:#B6AD90;
     font-family:sans-serif
 }
 .phb .back-cover-text a{
-    color: #597089;
+    color: #A68A64;
 }
 .phb .back-cover-text p{
     font-family:ScalySans,sans-serif;
@@ -275,12 +277,12 @@
     text-indent:0
 }
 .phb .back-cover-close{
-    color:#e0e0e0;
+    color:#B6AD90;
     text-align:center;
     font-family:sans-serif
 }
 .phb .back-cover-close a{
-    color: #597089;
+    color: #A68A64;
 }
 .phb .back-cover-close p{
     font-family:ScalySans,sans-serif;
@@ -302,7 +304,7 @@
   margin-bottom:0em;
   font-family:Mr.Jeeves;
   font-weight:500;
-  color:#597089;}
+  color:#A68A64;}
   .mytablestyle td:nth-child(1) {
     vertical-align: top;
 }
@@ -369,7 +371,7 @@
     background-color: transparent
 }
 .phb hr+section blockquote table {
-    color: #597089
+    color: #A68A64
 }
 .phb hr+section blockquote p+p {
     margin-top: 0;
@@ -386,11 +388,11 @@
   }
 /* Footer */
   .phb .pageNumber{
-    color: #597089;
+    color: #A68A64;
     bottom           : 30px;
   }
   .phb .footnote{
-    color: #597089;
+    color: #A68A64;
     bottom           : 40px;
   }
   .phb:after{ 
@@ -422,3 +424,5 @@
   .toc ul ul {margin-left: 10px !important;}
   .toc>ul>li {margin-bottom: initial !important;}
   .phb#p3:after{display:none;}
+
+</style>
