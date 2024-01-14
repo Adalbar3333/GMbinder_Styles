@@ -1,8 +1,10 @@
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
 /* Background */
-  .phb{ background-image: url('https://i.imgur.com/uagrEYC.png') }
-  .phb{ background-size: cover }
+  .phb{ background-image: url('https://i.imgur.com/uagrEYC.png') };
+  .phb{ background-size: cover };
 
 /* CSS link color */
   a { color: #b5d5f7; } 
@@ -59,12 +61,12 @@
 /* Note */
 .phb h5{ black;
     margin-bottom: .2em;               
-    font-family: ScalySansSmallCaps;
+    font-family: Merienda;
     font-size: .423cm;
     font-weight: 900
 }
 .phb blockquote {
-    font-family: ScalySans;
+    font-family: Merienda;
     box-sizing: border-box;
     margin-bottom: 1em;
     margin-top: 9px;
@@ -77,11 +79,11 @@
     box-shadow:0 0 6px #000000;
 }
 .phb blockquote em {
-    font-family: ScalySans;
+    font-family: Merienda;
     font-style: italic
 }
 .phb blockquote strong {
-    font-family: ScalySans;
+    font-family: Merienda;
     font-weight: 800;
     letter-spacing: -0.02em
 }
@@ -104,7 +106,7 @@
     display:block-inline;
     margin-bottom:1em;
     background-color:#656D4A;
-    font-family:ScalySans;
+    font-family:Merienda;
     padding: 0px 15px;
     border-style:transparent;
     border-width:4px;
@@ -121,11 +123,11 @@
     padding-top:.8em
 }
 .phb .descriptive em{
-    font-family:ScalySans;
+    font-family:Merienda;
     font-style:italic
 }
 .phb .descriptive strong{
-    font-family:ScalySans;
+    font-family:Merienda;
     font-weight:800;
     letter-spacing:-0.02em
 }
@@ -190,7 +192,7 @@
 }
 .phb .cover-footer{
     position:absolute;
-    font-family:ScalySans;
+    font-family:Merienda;
     font-size:20px;
     color: #b5d5f7;
     bottom:50px;
@@ -237,7 +239,7 @@
     left:145px
 }
 .phb .back-cover-logo-link p{
-    font-family:ScalySans,sans-serif;
+    font-family:Merienda,sans-serif;
     line-height:1.6em !important;
     font-size:16px;
     padding-bottom:25px
@@ -268,7 +270,7 @@
     color: #A68A64;
 }
 .phb .back-cover-text p{
-    font-family:ScalySans,sans-serif;
+    font-family:Merienda,sans-serif;
     line-height:1.6em !important;
     font-size:16px;
     padding-bottom:25px
@@ -285,7 +287,7 @@
     color: #A68A64;
 }
 .phb .back-cover-close p{
-    font-family:ScalySans,sans-serif;
+    font-family:Merienda,sans-serif;
     line-height:1.6em !important;
     font-size:16px;
     padding-bottom:25px
@@ -309,7 +311,7 @@
     vertical-align: top;
 }
     .phb table {                            
-    font-family: ScalySans;
+    font-family: Merienda;
     width: 100%;
     margin-bottom: 1em;
     font-size: 9.6pt;
@@ -337,7 +339,7 @@
     padding-bottom: 0
 }
 .phb hr+section blockquote h3 {
-    font-family: ScalySans;
+    font-family: Merienda;
     font-weight: 400;
     border-bottom: 1px solid
 }
@@ -345,16 +347,16 @@
     color: #7d8185
 }
 .phb hr+section blockquote ul {
-    font-family: ScalySans;
+    font-family: Merienda;
     padding-left: 1em;
     font-size: .352cm
 }
 .phb hr+section blockquote ul em {
-    font-family: ScalySans;
+    font-family: Merienda;
     font-style: italic
 }
 .phb hr+section blockquote ul strong {
-    font-family: ScalySans;
+    font-family: Merienda;
     font-weight: 800;
     letter-spacing: -0.02em
 }
